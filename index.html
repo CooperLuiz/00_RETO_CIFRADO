@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Reto encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="imagenes/Logo.png">
+            <h1>encriptador de texto</h1>
+        </header>
+
+        <main>
+            <textarea class="IngresarTexto" placeholder="Ingrese el texto aqui"></textarea>
+              
+            <div class="indicaciones">
+                <img src="imagenes/bi_exclamation-circle-fill.png">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            
+            <div class="botonesGrandes">
+                <button class="botEncriptar">Encriptar</button>
+                <button class="botDesencriptar">Desencriptar</button>
+            </div>
+
+            <div class="rectangulo"> 
+                <div class="muñecoytexto">
+                    <img class="muñeco" src="imagenes/Muñeco.png">
+                    <div class="frame5">
+                        <h2>Ningun mensaje fue encontrado</h2>
+                        <textarea class="IngresarTexto2" placeholder="Ingresa el texto que desees encriptar o desencriptar."></textarea>
+                    </div>    
+                </div>
+                <textarea class="areaTextoPost" style="display: none;"></textarea>
+                <button class="botCopiar" style="display: none;">Copiar</button>  
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="misDatos">
+                <p>© Luis Abel Silva García - 2023</p>
+            </div>
+        </footer>
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
